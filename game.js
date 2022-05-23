@@ -131,7 +131,7 @@ document.querySelectorAll('.contentImage .player').forEach((playerimg) => {
       p1.getPlayerChoice(playerChoice);
 
       game.startGame(p1, cpu);
-    } else alert('Please reset the game first.');
+    } else alert('Refresh');
   });
 });
 
